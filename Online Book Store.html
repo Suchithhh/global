@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width ,initial-scale=1.0">
+        <title>
+            Global
+        </title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+    <body>
+        <div class="header">
+
+        
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/rename.png" width = "125px "alt="logo pic">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href = "">Home</a></li>
+                        <li><a href = "">Categories</a></li>
+                        <li><a href = "">About</a></li>
+                        <li><a href = "">Contact</a></li>
+                        <li><a href = "">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px" alt="">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Buy books online?<br>From bestsellers</h1>
+                    <p>GlobalBookStore is the fastest way to compare book prices and buy books from online book sellers in India.</p>
+                    <a href="" class="btn">Explore now &#8594;</a>
+                </div>
+                <div class ="col-2">
+                    <img src="images/gop.jpg" alt="">
+                    <img src="images/jp.jpg" alt="">
+                    
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!--------Featured categories---------->  
+    
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/white.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/nec.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/gre.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!------------featuerd products----------------->
+
+    <div class="small-container">
+        <h2 class="title">Featured Books</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/author5.jpg" alt="">
+                <h4>The Truth We Hold</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                
+                <p>INR 1499.00</p>
+            </div>
+            </div>
+            <div class="col-4">
+                <img src="images/author3.jpg" alt="">
+                <h4>Attack On Titan</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="font-size:16px;color:#ff532b"></span>
+                    <span class="fa fa-star-o" style="font-size:16px;color:#ff532b"></span>
+                
+                <p>INR 350.00</p>
+            </div>
+            </div>
+            <div class="col-4">
+                <img src="images/author2.jpg" alt="">
+                <h4>Stranger Things</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                
+                <p>INR 499.00</p>
+            </div>
+            </div>
+            <div class="col-4">
+                <img src="images/author1.jpg" alt="">
+                <h4>Meet Cute</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-o" style="font-size:16px;color:#ff532b"></span>
+                
+                <p>INR 199.00</p>
+            </div>
+            </div>
+        </div>
+        <!-------------Latest Books------------------->
+        <h2 class="title">Latest Books</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/lat1.jpg" alt="">
+                <h4>The Truth We Hold</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                
+                <p>INR 290.00</p>
+            </div>
+            </div>
+            <div class="col-4">
+                <img src="images/lat2.jpg" alt="">
+                <h4>Attack On Titan</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="font-size:16px;color:#ff532b"></span>
+                    <span class="fa fa-star-o" style="font-size:16px;color:#ff532b"></span>
+                
+                <p>INR 149.00</p>
+            </div>
+            </div>
+            <div class="col-4">
+                <img src="images/lat3.jpg" alt="">
+                <h4>Stranger Things</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                
+                <p>INR 199.00</p>
+            </div>
+            </div>
+            <div class="col-4">
+                <img src="images/lat4.png" alt="">
+                <h4>Meet Cute</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-o" style="font-size:16px;color:#ff532b"></span>
+                
+                <p>INR 349.00</p>
+            </div>
+            </div>
+        </div>
+        <!-----Second row-->
+        <div class="row">
+            <div class="col-4">
+                <img src="images/lat5.png" alt="">
+                <h4>The Truth We Hold</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                
+                <p>INR 999.00</p>
+            </div>
+            </div>
+            <div class="col-4">
+                <img src="images/lat6.png" alt="">
+                <h4>Attack On Titan</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-full" style="font-size:16px;color:#ff532b"></span>
+                    <span class="fa fa-star-o" style="font-size:16px;color:#ff532b"></span>
+                
+                <p>INR 699.00</p>
+            </div>
+            </div>
+            <div class="col-4">
+                <img src="images/lat7.png" alt="">
+                <h4>Stranger Things</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                
+                <p>INR 149.00</p>
+            </div>
+            </div>
+            <div class="col-4">
+                <img src="images/lat8.png" alt="">
+                <h4>Meet Cute</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-o" style="font-size:16px;color:#ff532b"></span>
+                <p>INR 899.00</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!------Offer-------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/mahabharath.jpg" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Global Book Store</p>
+                    <h1>MahaBharatha</h1>
+                    <small>
+                        Something extra for the devoted readers Amar Chitra Katha also offers special editions of their books. 
+                        <br>These editions contain never ­seen ­before pages and come elegantly hard­bound
+                    </small><br>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----Testmonial---->
+    <div class="testmonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        When I was a kid, my father used to buy me Mahabharata published by Poompatta Amar Chitra Katha (PAICO, Malayalam) in the 1980s. It was published fortnightly and it took many months to finish the entire epic. I lost all my old books collection in a flood. But the learning from the books is still with me I bought this for my two kids and they are loving it! This should be in every household with growing kids.
+                    </p>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <h3>Rishikesh</h3>
+                    </div>
+                    
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        When I was a kid, my father used to buy me Mahabharata published by Poompatta Amar Chitra Katha (PAICO, Malayalam) in the 1980s. It was published fortnightly and it took many months to finish the entire epic. I lost all my old books collection in a flood. But the learning from the books is still with me I bought this for my two kids and they are loving it! This should be in every household with growing kids.
+                    </p>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <h3>Narendranath</h3>
+                    </div>
+                   
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        When I was a kid, my father used to buy me Mahabharata published by Poompatta Amar Chitra Katha (PAICO, Malayalam) in the 1980s. It was published fortnightly and it took many months to finish the entire epic. I lost all my old books collection in a flood. But the learning from the books is still with me I bought this for my two kids and they are loving it! This should be in every household with growing kids.
+                    </p>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <h3>Rani</h3>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        
+        <!-----Brands----->
+        <div class="authors">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/a1.jpg" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/s6.jpg" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/s3.jpg" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/s4.jpg" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/s8.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------Footer-------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png" alt="">
+                            <img src="images/app-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/rename.png"  alt="logo pic">
+                        <p>Read what you want, when you want…!</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">
+                    Copyright 2017. Global.com. All Rights Reserved
+                </p>
+            </div>
+        </div>
+
+        <!-------js for toggle menu--------->
+
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight = "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+
+        </script>
+
+    </body>
+</html>
